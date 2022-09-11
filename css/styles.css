@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+/* all pages */
+body{
+    margin: 40px;
+    padding:20px;
+}
+
+h1{
+    font-family: 'PT Sans', sans-serif;
+    font-style:normal;
+    font-weight:bold;
+    float: left;
+    color:rgb(103, 57, 38);
+    margin-top:0px;
+    margin-bottom: 20px; 
+}
+h2 {
+    font-family: 'PT Sans', sans-serif;
+    font-style:normal;
+    font-weight:normal;
+    text-align:center;
+    color:rgb(103, 57, 38);
+    /* margin-top:0px; */
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+footer {
+    border-top: 1px solid black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    
+}
+footer a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+/* taken from textbook chapter 13 */
+nav a{
+    text-decoration: none;
+    color:rgb(248, 236, 231);
+}
+nav li{
+    background-color:rgb(71, 65, 65);
+    box-shadow:5px 3px rgba(71, 65, 65, 0.517);
+    display: inline;
+    font-family: 'PT Sans', sans-serif;
+    padding: 5px;
+    margin-right: 10px; 
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+h1 #top{
+    float: left;
+}
+.navbar > nav {
+    float: right;
+    /* margin-bottom: 4px; */
+}
+header {
+    display: block;
+    margin-bottom: 40px;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+
+/* index page */
+img.align-center {
+    width: 600px;
+    height: 500px;
+    display: block;
+    margin: 0px auto;
+}
+img.gallery{
+    display: inline-block;
+    margin:0px auto;
+}
+img.medium{
+    background-color: white;
+    border:2px solid black;
+    box-shadow:5px 10px rgba(71, 65, 65, 0.517);
+    height:400px;
+    width: 300px;
+    margin: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 45px;
+}
+#frontImage figcaption{
+    display: block;
+    margin:0px auto;
+    padding: 10px;
+}
+figcaption {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+div#picRow {
+    text-align:center;
+    background-image:url(../images/dotted-bg.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+/* info page */
+table{
+    border-collapse: collapse;
+    display:block;
+    margin:auto;
+    margin-bottom: 60px;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    text-align: start;
+    border-spacing: 2px;
+    width: 80%;
+    padding: 20px;
+    
+}
+th, td{
+    background-color:#e3ded8;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    border: solid 2px black;  
+    box-shadow:5px 10px rgba(71, 65, 65, 0.517);
+}
+div#information{
+    margin: 10px;
+    
+}
+/* form page */
+form {
+    color: black;
+    display: block;
+    margin: auto;
+    margin-bottom: 60px;
+    font-family: 'Open Sans', sans-serif;
+    width: 50%;
+}
+fieldset{
+    background-color:#e3ded8;
+}
+legend {
+    background-color: white;
+    border:solid 1px black;
+    box-shadow:5px 3px rgba(71, 65, 65, 0.517);
+    padding:3px;
+}
+/* map page */
+div#maps{
+    width:60%;
+    margin:auto;
+    margin-bottom: 60px;
+}
+span.store{
+    font-size:20px;
+}
+iframe{
+    box-shadow:5px 10px rgba(71, 65, 65, 0.517);
+    display:block;
+    width:700px;
+    margin:auto;
+    margin-bottom:40px;
+}
+div > p{
+    background-color:#e3ded8;
+    width: 400px;
+    padding: 10px;
+}
+
